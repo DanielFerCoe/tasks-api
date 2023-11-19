@@ -1,0 +1,11 @@
+{
+  "name": "tasks-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "author": "Daniel Ferreira",
+  "license": "ISC"
+}
