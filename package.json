@@ -4,8 +4,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch src/server.js"
+    "dev": "node --watch src/server.js",
+    "import-csv": "node streams/import-csv.js"
   },
   "author": "Daniel Ferreira",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.2"
+  }
 }
